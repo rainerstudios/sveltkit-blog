@@ -2,15 +2,6 @@
 import adapter from '@sveltejs/adapter-static'; // Import the adapter you want to use
 
 
-/** @type {import('@sveltejs/kit').Config} */
-
-const config = {
-	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
-		
-	}
-};
 
 
 
